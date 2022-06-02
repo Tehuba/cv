@@ -1,20 +1,31 @@
-h1 {
-  margin-top: 0px;
-  font-family: 'Sacramento', cursive;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-
 body {
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.655rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;,
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
 }
 
 .top-container {
@@ -50,4 +61,23 @@ body {
 .personal-pic {
   width: 300px;
   height: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chili-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
